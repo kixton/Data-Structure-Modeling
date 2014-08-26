@@ -30,7 +30,7 @@ end
 
 array
 
-f.close	
+file.close	
 
 =begin
 
