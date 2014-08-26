@@ -1,13 +1,3 @@
-
-
-recipes = [
-
-	recipe_name: 
-
-
-]
-
-
 apple salad
 serves 4
 6 oz mixed greens
@@ -30,3 +20,4 @@ serves 2
 1 avacado
 1 soup
 cookies
+
