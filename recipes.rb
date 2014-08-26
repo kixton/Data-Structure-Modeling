@@ -19,7 +19,20 @@ end
 
 
 
+array = []
+
 file = File.open("recipes.txt", "r")
+file.each_line do |line|
+
+	array << line
+
+end
+
+array
+
+f.close	
+
+=begin
 
 file.each_line do |line|
 
@@ -34,14 +47,11 @@ file.each_line do |line|
 		avacado_soup << line
 
 	# read array 
-
-		array[0] # index 0 = recipe_name
-		array[1] # index 2 = serving_size
+		array[0] # index 0 --> make it a instance of a Recipe  
+		array[1] # index 2 --> serving size 
 		array[3..-1] # index 3 to last index = ingredients
 
 end
-
-
 
 
 f.close	
