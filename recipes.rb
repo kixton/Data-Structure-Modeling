@@ -20,17 +20,15 @@ end
 
 
 array = []
-
 file = File.open("recipes.txt", "r")
-file.each_line do |line|
+	file.each_line do |line|
 
-	array << line
+		array << line
 
-end
+	end
+file.close
 
-array
-
-file.close	
+puts array
 
 =begin
 
