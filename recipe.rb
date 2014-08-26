@@ -1,5 +1,7 @@
 
 
+variable = 2
+
 recipes = [
 
 	{
