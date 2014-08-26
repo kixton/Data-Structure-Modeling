@@ -1,7 +1,7 @@
 
 
 
-class Recipes
+class Recipe
 
 	attr_reader :name, :serving, :ingredients
 
@@ -20,8 +20,24 @@ end
 
 
 file = File.open("recipes.txt", "r")
+
 file.each_line do |line|
-	line = Recipes.new(line, )
+
+	# first create an array for each recipe
+		apple_salad = []
+		bean_burgers = []
+		avacado_soup = []
+	
+	# store each line as string
+		apple_salad << line
+		bean_burgers << line
+		avacado_soup << line
+
+	# read array 
+
+		array[0] # index 0 = recipe_name
+		array[1] # index 2 = serving_size
+		array[3..-1] # index 3 to last index = ingredients
 
 end
 
@@ -32,7 +48,7 @@ f.close
 
 
 
-apple_salad = Recipes.new("apple salad", "4")
+apple_salad = Recipe.new("apple salad", "4")
 apple_salad.add_ingredient("6 oz mixed greens")
 
 
