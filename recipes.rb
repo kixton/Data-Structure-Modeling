@@ -18,12 +18,12 @@ class Recipe
 end	
 
 
-
 array = []
 file = File.open("recipes.txt", "r")
 	file.each_line do |line|
 
 		array << line
+		array.split("/n")
 
 	end
 file.close
